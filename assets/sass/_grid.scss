@@ -1,0 +1,66 @@
+@import "compass";
+// @import "compass/reset";
+/*-----------------------------*\
+	Variables
+\*-----------------------------*/
+$columns: 12!default;
+
+$gutter: 20px !default;
+
+$medium: 640px !default;
+$large: 1040px !default;
+
+%col {
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding: 0 $gutter * 0.5;
+}
+
+%clearfix {
+	&:before, &:after { content:""; display:table; }
+	&:after { clear:both; }
+	& { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
+}
+
+/*-----------------------------*\
+	Grid
+\*-----------------------------*/
+* {
+	@include box-sizing(border-box);
+}
+
+.row {
+	margin: 0 $gutter * -0.5;
+	@extend %clearfix;
+}
+
+@for $i from 1 through $columns{
+	.col-s-#{$i}{
+		@extend %col;
+		width: $i / $columns * 100%;
+	}
+	.col-m-#{$i}, .col-l-#{$i} {
+		@extend %col;
+	}
+}
+/*-----------------------------*\
+	Tablettes
+\*-----------------------------*/
+@media only screen and ( min-width: $medium ){
+	@for $i from 1 through $columns{
+		.col-m-#{$i}{
+			width: $i / $columns * 100%;
+		}
+	}
+}
+/*-----------------------------*\
+	Desktop
+\*-----------------------------*/
+@media only screen and ( min-width: $large ){
+	@for $i from 1 through $columns{
+		.col-l-#{$i}{
+			width: $i / $columns * 100%;
+		}
+	}
+}

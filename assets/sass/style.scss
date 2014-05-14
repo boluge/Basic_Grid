@@ -1,0 +1,11 @@
+@import "grid";
+
+$bordergrid : #2c3e50;
+$bggrid: #f1c40f;
+
+@for $i from 1 through $columns {
+	.col-s-#{$i}, .col-m-#{$i}, .col-l-#{$i}{
+		background:rgba(#f1c40f,0.5);
+		border: 2px solid $bordergrid;
+	}
+}
