@@ -3,24 +3,32 @@
 /*-----------------------------*\
 	Variables
 \*-----------------------------*/
-$columns: 12!default;
+$grid_columns: 12!default;
+$grid_gutter: 20px !default;
 
-$gutter: 20px !default;
-
-$medium: 640px !default;
-$large: 1040px !default;
+$grid_medium: 640px !default;
+$grid_large: 1040px !default;
 
 %col {
 	float: left;
 	position: relative;
 	min-height: 1px;
-	padding: 0 $gutter * 0.5;
+	padding: 0 $grid_gutter * 0.5;
 }
 
 %clearfix {
 	&:before, &:after { content:""; display:table; }
 	&:after { clear:both; }
-	& { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
+	& { zoom:1; }
+}
+
+@mixin grid($suffix: ''){
+	@for $i from 1 through $grid_columns{
+		.col#{$suffix}-#{$i}{
+			@extend %col;
+			width: $i / $grid_columns * 100%;
+		}
+	}
 }
 
 /*-----------------------------*\
@@ -31,36 +39,47 @@ $large: 1040px !default;
 }
 
 .row {
-	margin: 0 $gutter * -0.5;
+	margin: 0 $grid_gutter * -0.5;
 	@extend %clearfix;
 }
 
-@for $i from 1 through $columns{
-	.col-s-#{$i}{
-		@extend %col;
-		width: $i / $columns * 100%;
-	}
+@include grid();
+
+@for $i from 1 through $grid_columns{
 	.col-m-#{$i}, .col-l-#{$i} {
 		@extend %col;
 	}
 }
+
+.hidden-s, .visible-m, .visible-l {
+	display: none;
+}
+.visible-s, .hidden-m, .hidden-l {
+	display: block;
+}
+
 /*-----------------------------*\
-	Tablettes
+	Responsive
 \*-----------------------------*/
-@media only screen and ( min-width: $medium ){
-	@for $i from 1 through $columns{
-		.col-m-#{$i}{
-			width: $i / $columns * 100%;
-		}
+
+// Medium
+@media only screen and ( min-width: $grid_medium ){
+	@include grid('-m');
+	.hidden-m, .visible-s, .visible-l {
+		display: none;
+	}
+	.visible-m, .hidden-s, .hidden-l {
+		display: block;
 	}
 }
-/*-----------------------------*\
-	Desktop
-\*-----------------------------*/
-@media only screen and ( min-width: $large ){
-	@for $i from 1 through $columns{
-		.col-l-#{$i}{
-			width: $i / $columns * 100%;
-		}
+
+// Large
+@media only screen and ( min-width: $grid_large ){
+	@include grid('-l');
+	.hidden-l, .visible-s, .visible-m {
+		display: none;
+	}
+	.visible-l, .hidden-s, .hidden-m {
+		display: block;
 	}
 }
