@@ -9,6 +9,10 @@ $grid_gutter: 20px !default;
 $grid_medium: 640px !default;
 $grid_large: 1040px !default;
 
+$container_small: 100% !default;
+$container_medium: 80% !default;
+$container_large: 1040px !default;
+
 %col {
 	float: left;
 	position: relative;
@@ -43,6 +47,11 @@ $grid_large: 1040px !default;
 	@extend %clearfix;
 }
 
+.container {
+	width: $container_small;
+	margin: 0 auto;
+}
+
 @include grid();
 
 @for $i from 1 through $grid_columns{
@@ -65,6 +74,10 @@ $grid_large: 1040px !default;
 // Medium
 @media only screen and ( min-width: $grid_medium ){
 	@include grid('-m');
+	.container {
+		width: $container_medium;
+		margin: 0 auto;
+	}
 	.hidden-m, .visible-s, .visible-l {
 		display: none;
 	}
@@ -76,6 +89,10 @@ $grid_large: 1040px !default;
 // Large
 @media only screen and ( min-width: $grid_large ){
 	@include grid('-l');
+	.container {
+		width: $container_large;
+		margin: 0 auto;
+	}
 	.hidden-l, .visible-s, .visible-m {
 		display: none;
 	}
