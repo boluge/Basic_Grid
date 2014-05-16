@@ -1,12 +1,30 @@
 @import "grid";
 
 
-$bordergrid : #2c3e50;
-$bggrid: #f1c40f;
+$bordergrid : #f1c40f;
+$bggrid: #2c3e50;
+
+body {
+	font-family: sans-serif;
+	color: $bordergrid;
+	background: $bordergrid;
+	h1 {
+		color: #fff;
+		padding:0; margin: 0 0 20px 0;
+	}
+	h2 {
+		padding:0; margin: 0;
+		color: #f39c12
+	}
+	.row {
+		margin-top: 20px;
+	}
+}
 
 @for $i from 1 through $grid_columns {
-	.col-s-#{$i}, .col-m-#{$i}, .col-l-#{$i}{
-		background:rgba(#f1c40f,0.6);
-		border: 1px solid $bordergrid;
+	.col-#{$i}, .col-s-#{$i}, .col-m-#{$i}, .col-l-#{$i}{
+		background:$bggrid;
+		border: 2px solid lighten($bordergrid,25);
+		padding: 5px;
 	}
 }
