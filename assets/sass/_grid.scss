@@ -6,9 +6,11 @@
 $grid_columns: 12!default;
 $grid_gutter: 20px !default;
 
-$grid_medium: 640px !default;
+$grid_small: 720px !default;
+$grid_medium: 960px !default;
 $grid_large: 1040px !default;
 
+$container_extrasmall: 100% !default;
 $container_small: 100% !default;
 $container_medium: 80% !default;
 $container_large: 1040px !default;
@@ -29,7 +31,10 @@ $container_large: 1040px !default;
 @mixin grid($suffix: ''){
 	@for $i from 1 through $grid_columns{
 		.col#{$suffix}-#{$i}{
-			@extend %col;
+			float: left;
+			position: relative;
+			min-height: 1px;
+			padding: 0 $grid_gutter * 0.5;
 			width: $i / $grid_columns * 100%;
 		}
 	}
@@ -53,23 +58,35 @@ $container_large: 1040px !default;
 }
 
 @include grid();
+@include grid('-s');
+@include grid('-m');
+@include grid('-l');
 
-@for $i from 1 through $grid_columns{
-	.col-m-#{$i}, .col-l-#{$i} {
-		@extend %col;
-	}
-}
 
-.hidden-s, .visible-m, .visible-l {
+.hidden-xs, .visible-s,.visible-m, .visible-l {
 	display: none;
 }
-.visible-s, .hidden-m, .hidden-l {
+.visible-xs, .hidden-s, .hidden-m, .hidden-l {
 	display: block;
 }
 
 /*-----------------------------*\
 	Responsive
 \*-----------------------------*/
+// Small
+@media only screen and ( min-width: $grid_small ){
+	@include grid('-s');
+	.container {
+		width: $container_small;
+		margin: 0 auto;
+	}
+	.hidden-s, .visible-xs, .visible-m, .visible-l {
+		display: none;
+	}
+	.visible-s, .hidden-xs, .hidden-m, .hidden-l {
+		display: block;
+	}
+}
 
 // Medium
 @media only screen and ( min-width: $grid_medium ){
@@ -78,10 +95,10 @@ $container_large: 1040px !default;
 		width: $container_medium;
 		margin: 0 auto;
 	}
-	.hidden-m, .visible-s, .visible-l {
+	.hidden-m, .visible-xs, .visible-s, .visible-l {
 		display: none;
 	}
-	.visible-m, .hidden-s, .hidden-l {
+	.visible-m, .hidden-xs, .hidden-s, .hidden-l {
 		display: block;
 	}
 }
@@ -93,10 +110,10 @@ $container_large: 1040px !default;
 		width: $container_large;
 		margin: 0 auto;
 	}
-	.hidden-l, .visible-s, .visible-m {
+	.hidden-l, .visible-xs, .visible-s, .visible-m {
 		display: none;
 	}
-	.visible-l, .hidden-s, .hidden-m {
+	.visible-l, .hidden-xs,  .hidden-s, .hidden-m {
 		display: block;
 	}
 }
