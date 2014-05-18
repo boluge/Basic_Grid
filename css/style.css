@@ -90,7 +90,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000348}}
 .container {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   position: relative; }
 
@@ -300,7 +300,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000373}}
   .container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000377}}
