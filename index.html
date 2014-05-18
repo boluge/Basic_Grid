@@ -3,10 +3,129 @@
 <head>
 	<meta charset="UTF-8">
 	<title>BasicGrid</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/github.min.css">
+	<script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
-	<div class="container row">
+	<header class="header header-grille">
+		<div class="container">
+			<h1>Basic Grid</h1>
+			<h2>La grille</h2>
+			<a class="btn" href="#">Télécharger</a>
+		</div>
+	</header>
+	<section class="section section-grille">
+		<div class="container">
+			<div class="row">
+				<p><b>Basic Grid</b> est un grille RWD en sass. Cette grille est <b>mobile first</b>. Elle est par defaut découpé en 12 colonnes, il est possible de choisir sa largeur, le nombre de colonnes, mais aussi la largeur de la goutière. Pour savoir comment porcéder, regardez le chapitre <a href="#configuration">Configuration</a></p>
+				<h3>L'utilisation</h3>
+				<pre><code class="hljs xml">&lt;!-- Classe Container -->
+&lt;div class="container">
+
+	&lt;!-- Classe Row -->
+	&lt;div class="row">
+		&lt;div class="col-6">
+			...
+		&lt;/div>
+		&lt;div class="col-6">
+			...
+		&lt;/div>
+	&lt;/div>
+&lt;/div></code></pre>
+
+				<pre><code class="hljs xml">&lt;!-- Taille d'une colonne sur écran très petit -->
+&lt;div class="col-6">...&lt;/div>
+
+&lt;!-- Taille d'une colonne sur écran petit -->
+&lt;div class="col-s-6">...&lt;/div>
+
+&lt;!-- Taille d'une colonne sur écran moyen -->
+&lt;div class="col-m-6">...&lt;/div>
+
+&lt;!-- Taille d'une colonne sur écran large -->
+&lt;div class="col-l-6">...&lt;/div></code></pre>
+			</div>
+			<div class="row">
+				<div class="col-1"><span>Col-1</span></div>
+				<div class="col-1">Col-1</div>
+				<div class="col-1">Col-1</div>
+				<div class="col-1">Col-1</div>
+				<div class="col-1">Col-1</div>
+				<div class="col-1">Col-1</div>
+				<div class="col-1">Col-1</div>
+				<div class="col-1">Col-1</div>
+				<div class="col-1">Col-1</div>
+				<div class="col-1">Col-1</div>
+				<div class="col-1">Col-1</div>
+				<div class="col-1">Col-1</div>
+			</div>
+
+			<div class="row">
+				<div class="col-2">Col-2</div>
+				<div class="col-2">Col-2</div>
+				<div class="col-2">Col-2</div>
+				<div class="col-2">Col-2</div>
+				<div class="col-2">Col-2</div>
+				<div class="col-2">Col-2</div>
+			</div>
+
+			<div class="row">
+				<div class="col-3">Col-3</div>
+				<div class="col-3">Col-3</div>
+				<div class="col-3">Col-3</div>
+				<div class="col-3">Col-3</div>
+			</div>
+
+			<div class="row">
+				<div class="col-4">Col-4</div>
+				<div class="col-4">Col-4</div>
+				<div class="col-4">Col-4</div>
+			</div>
+
+			<div class="row">
+				<div class="col-6">Col-6</div>
+				<div class="col-6">Col-6</div>
+			</div>
+
+			<div class="row">
+				<div class="col-7">Col-7</div>
+				<div class="col-5">Col-5</div>
+			</div>
+
+			<div class="row">
+				<div class="col-8">Col-8</div>
+				<div class="col-4">Col-4</div>
+			</div>
+
+			<div class="row">
+				<div class="col-9">Col-9</div>
+				<div class="col-3">Col-3</div>
+			</div>
+
+			<div class="row">
+				<div class="col-10">Col-10</div>
+				<div class="col-2">Col-2</div>
+			</div>
+
+			<div class="row">
+				<div class="col-11">Col-11</div>
+				<div class="col-1">Col-1</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12">Col-12</div>
+			</div>
+		</div>
+	</section>
+	<header id="configuration" class="header header-config">
+		<h2>La Configuration</h2>
+	</header>
+	<section class="section">
 		<h1 class="visible-xs">Size XS</h1>
 		<h1 class="visible-s">Size S</h1>
 		<h1 class="visible-m">Size M</h1>
@@ -16,79 +135,14 @@
 		<h2 class="hidden-s">hidden-s</h2>
 		<h2 class="hidden-m">hidden-m</h2>
 		<h2 class="hidden-l">hidden-l</h2>
-
-		<div class="row">
-			<div class="col-1"><span>Col-1</span></div>
-			<div class="col-1">Col-1</div>
-			<div class="col-1">Col-1</div>
-			<div class="col-1">Col-1</div>
-			<div class="col-1">Col-1</div>
-			<div class="col-1">Col-1</div>
-			<div class="col-1">Col-1</div>
-			<div class="col-1">Col-1</div>
-			<div class="col-1">Col-1</div>
-			<div class="col-1">Col-1</div>
-			<div class="col-1">Col-1</div>
-			<div class="col-1">Col-1</div>
-		</div>
-
-		<div class="row">
-			<div class="col-2">Col-2</div>
-			<div class="col-2">Col-2</div>
-			<div class="col-2">Col-2</div>
-			<div class="col-2">Col-2</div>
-			<div class="col-2">Col-2</div>
-			<div class="col-2">Col-2</div>
-		</div>
-
-		<div class="row">
-			<div class="col-3">Col-3</div>
-			<div class="col-3">Col-3</div>
-			<div class="col-3">Col-3</div>
-			<div class="col-3">Col-3</div>
-		</div>
-
-		<div class="row">
-			<div class="col-4">Col-4</div>
-			<div class="col-4">Col-4</div>
-			<div class="col-4">Col-4</div>
-		</div>
-
-		<div class="row">
-			<div class="col-6">Col-6</div>
-			<div class="col-6">Col-6</div>
-		</div>
-
-		<div class="row">
-			<div class="col-7">Col-7</div>
-			<div class="col-5">Col-5</div>
-		</div>
-
-		<div class="row">
-			<div class="col-8">Col-8</div>
-			<div class="col-4">Col-4</div>
-		</div>
-
-		<div class="row">
-			<div class="col-9">Col-9</div>
-			<div class="col-3">Col-3</div>
-		</div>
-
-		<div class="row">
-			<div class="col-10">Col-10</div>
-			<div class="col-2">Col-2</div>
-		</div>
-
-		<div class="row">
-			<div class="col-11">Col-11</div>
-			<div class="col-1">Col-1</div>
-		</div>
-
-		<div class="row">
-			<div class="col-12">Col-12</div>
-		</div>
+	</section>
+	<header class="header header-tools">
+		<h2>Les Outils</h2>
+	</header>
+	<section class="section">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eligendi, architecto, modi doloribus eius repudiandae molestias ut rerum harum nostrum voluptatibus nam rem odio quod quo. Eum, repellendus quidem possimus.</p>
+	</section>
 
 
-	</div>
 </body>
 </html>

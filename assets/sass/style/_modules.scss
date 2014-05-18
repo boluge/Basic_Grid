@@ -1,0 +1,97 @@
+/*------------------------*\
+	$Headers
+\*------------------------*/
+.header {
+	h1, h2 {
+		text-align: center;
+		color: $blanc;
+		position: relative;
+		z-index: 10;
+	}
+	h2 {
+		text-transform: uppercase;
+	}
+	.btn {
+		margin: 70px auto 0;
+	}
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		background:rgba( $dark,0.2 );
+	}
+	z-index: 1;
+	padding: 160px 0 180px 0;
+	position: relative;
+	text-align: center;
+}
+.header-grille {
+	background: url( '../img/grid.jpg' ) no-repeat center center fixed;
+	@include background-size(cover);
+}
+.header-config {
+	background: url( '../img/parameters.jpg' ) no-repeat center center fixed;
+	@include background-size(cover);
+	h2 {
+		padding: 60px 0;
+	}
+}
+.header-tools {
+	background: url( '../img/tools.jpg' ) no-repeat center center fixed;
+	@include background-size(cover);
+	h2 {
+		padding: 60px 0;
+	}
+}
+/*------------------------*\
+	$Sections
+\*------------------------*/
+.section {
+	padding: 40px 0;
+	display: block;
+
+	z-index: 5;
+	position: relative;
+
+	&:before, &:after {
+		content: '';
+		background:$blanc;
+
+		position: absolute;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+
+		@include transform-origin( 0,0 );
+		@include transform(skewY( -2deg ));
+
+		z-index: -1;
+	}
+	&:after {
+		@include transform-origin( 100%,0 );
+	}
+}
+/*------------------------*\
+	$Bouton
+\*------------------------*/
+.btn {
+	display: inline-block;
+	padding: 0 40px;
+	background:$sun;
+	color: $blanc;
+	text-decoration: none;
+	line-height: 45px;
+}
+/*------------------------*\
+	$Grille
+\*------------------------*/
+@for $i from 1 through $grid_columns {
+	.col-#{$i}, .col-s-#{$i}, .col-m-#{$i}, .col-l-#{$i}{
+		background:$sun;
+		border: 1px solid $blanc;
+		font-weight: 200;
+		padding: 8px 5px;
+		font-size: 14px;
+		color: $blanc;
+	}
+}

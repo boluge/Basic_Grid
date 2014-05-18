@@ -1,9 +1,26 @@
 module.exports = function(grunt) {
 
 	grunt.initConfig({
-
 		pkg: grunt.file.readJSON('package.json'),
 
+		connect: {
+			server: {
+				options: {
+					port: 8080,
+					hostname: '127.0.0.1'
+				}
+			}
+		},
+		imagemin: {
+			dynamic: {
+				files: [{
+					expand: true,
+					cwd: 'assets/raw/',
+					src: ['**/*.{png,jpg,gif}'],
+					dest: 'img/'
+				}]
+			}
+		},
 		compass: {
 			dist: {
 				options: {
@@ -26,7 +43,7 @@ module.exports = function(grunt) {
 
 		 watch: {
 			css: {
-				files: ['assets/sass/*.scss'],
+				files: ['assets/sass/**/*.scss'],
 				tasks: ['compass:dev'],
 				options: {
 					spawn: false,
@@ -50,6 +67,6 @@ module.exports = function(grunt) {
 	grunt.registerTask('build', ['compass:dist']);
 	grunt.registerTask('dev', ['compass:dev']);
 
-	grunt.registerTask('default', ['dev','watch']);
+	grunt.registerTask('default', ['dev','connect','imagemin','watch']);
 
 };

@@ -49,6 +49,7 @@ $container_large: 1040px !default;
 .container {
 	width: $container_small;
 	margin: 0 auto;
+	position: relative;
 }
 
 @include grid();

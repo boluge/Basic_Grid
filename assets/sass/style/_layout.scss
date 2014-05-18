@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    h1 {
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 100px;
+    }
+    h2 {
+        font-size: 40px;
+        font-weight: 200;
+        line-height: 60px;
+    }
+}
+h3 {
+    line-height: 1.5em;
+    margin: 20px 0;
+    font-size: 24px;
+    color: $blanc;
+    border-left: 4px solid darken( $sun,5 );
+    padding: 0 10px;
+    position: relative;
+    background:$sun;
+    z-index: 10;
+}
+p {
+    margin-bottom: 1em;
+    color: darken($greyf,10);
+}
+a {
+    font-weight: 600;
+    text-decoration: none;
+    color: darken($greyf,10);
+    border-bottom: 1px solid $sun;
+}
+pre {
+    margin-bottom: 20px;
+    code {
+         padding: 10px !important;
+         @include border-radius(4px);
+    }
+}
+b {
+    font-weight: 700;
+}
+
+.container {
+    z-index: 20;
+}
