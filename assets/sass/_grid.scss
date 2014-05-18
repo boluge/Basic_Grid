@@ -1,19 +1,18 @@
 @import "compass";
-// @import "compass/reset";
 /*-----------------------------*\
 	Variables
 \*-----------------------------*/
 $grid_columns: 12!default;
 $grid_gutter: 20px !default;
 
-$grid_small: 720px !default;
-$grid_medium: 960px !default;
-$grid_large: 1040px !default;
-
-$container_extrasmall: 100% !default;
+$container_xsmall: 100% !default;
 $container_small: 100% !default;
 $container_medium: 80% !default;
 $container_large: 1040px !default;
+
+$grid_small: 720px !default;
+$grid_medium: 960px !default;
+$grid_large: 1040px !default;
 
 %clearfix {
 	&:before, &:after { content:""; display:table; }
@@ -41,21 +40,21 @@ $container_large: 1040px !default;
 }
 
 .row {
-	//margin: 0 $grid_gutter * -0.5;
+	margin: 0 $grid_gutter * -0.5;
 	@extend %clearfix;
 	overflow: hidden;
 }
 
 .container {
-	width: $container_small;
+	width: $container_xsmall;
 	margin: 0 auto;
 	position: relative;
 }
 
 @include grid();
-@include grid('-s');
-@include grid('-m');
-@include grid('-l');
+// @include grid('-s');
+// @include grid('-m');
+// @include grid('-l');
 
 
 .hidden-xs, .visible-s,.visible-m, .visible-l {

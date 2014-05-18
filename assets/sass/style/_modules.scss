@@ -19,7 +19,7 @@
 		content: '';
 		position: absolute;
 		top: 0; left: 0; right: 0; bottom: 0;
-		background:rgba( $dark,0.2 );
+		background:rgba( $dark,0.35 );
 	}
 	z-index: 1;
 	padding: 160px 0 180px 0;
@@ -93,5 +93,9 @@
 		padding: 8px 5px;
 		font-size: 14px;
 		color: $blanc;
+		&.clean {
+			background: transparent;
+			border: none;
+		}
 	}
 }
