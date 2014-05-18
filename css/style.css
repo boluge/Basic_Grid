@@ -582,13 +582,14 @@ pre {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
     border-radius: 4px;
-    border: 1px solid #d9dcde; }
+    border: 1px solid #d9dcde;
+    font-size: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000351}}
 b {
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000355}}
 .container {
   z-index: 20; }
 
@@ -711,7 +712,7 @@ b {
   border: 1px solid white;
   font-weight: 200;
   padding: 8px 5px;
-  font-size: 14px;
+  font-size: 11px;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000396}}
   .col-1.clean, .col-s-1.clean, .col-m-1.clean, .col-l-1.clean {
@@ -724,7 +725,7 @@ b {
   border: 1px solid white;
   font-weight: 200;
   padding: 8px 5px;
-  font-size: 14px;
+  font-size: 11px;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000396}}
   .col-2.clean, .col-s-2.clean, .col-m-2.clean, .col-l-2.clean {
@@ -737,7 +738,7 @@ b {
   border: 1px solid white;
   font-weight: 200;
   padding: 8px 5px;
-  font-size: 14px;
+  font-size: 11px;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000396}}
   .col-3.clean, .col-s-3.clean, .col-m-3.clean, .col-l-3.clean {
@@ -750,7 +751,7 @@ b {
   border: 1px solid white;
   font-weight: 200;
   padding: 8px 5px;
-  font-size: 14px;
+  font-size: 11px;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000396}}
   .col-4.clean, .col-s-4.clean, .col-m-4.clean, .col-l-4.clean {
@@ -763,7 +764,7 @@ b {
   border: 1px solid white;
   font-weight: 200;
   padding: 8px 5px;
-  font-size: 14px;
+  font-size: 11px;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000396}}
   .col-5.clean, .col-s-5.clean, .col-m-5.clean, .col-l-5.clean {
@@ -776,7 +777,7 @@ b {
   border: 1px solid white;
   font-weight: 200;
   padding: 8px 5px;
-  font-size: 14px;
+  font-size: 11px;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000396}}
   .col-6.clean, .col-s-6.clean, .col-m-6.clean, .col-l-6.clean {
@@ -789,7 +790,7 @@ b {
   border: 1px solid white;
   font-weight: 200;
   padding: 8px 5px;
-  font-size: 14px;
+  font-size: 11px;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000396}}
   .col-7.clean, .col-s-7.clean, .col-m-7.clean, .col-l-7.clean {
@@ -802,7 +803,7 @@ b {
   border: 1px solid white;
   font-weight: 200;
   padding: 8px 5px;
-  font-size: 14px;
+  font-size: 11px;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000396}}
   .col-8.clean, .col-s-8.clean, .col-m-8.clean, .col-l-8.clean {
@@ -815,7 +816,7 @@ b {
   border: 1px solid white;
   font-weight: 200;
   padding: 8px 5px;
-  font-size: 14px;
+  font-size: 11px;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000396}}
   .col-9.clean, .col-s-9.clean, .col-m-9.clean, .col-l-9.clean {
@@ -828,7 +829,7 @@ b {
   border: 1px solid white;
   font-weight: 200;
   padding: 8px 5px;
-  font-size: 14px;
+  font-size: 11px;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000396}}
   .col-10.clean, .col-s-10.clean, .col-m-10.clean, .col-l-10.clean {
@@ -841,7 +842,7 @@ b {
   border: 1px solid white;
   font-weight: 200;
   padding: 8px 5px;
-  font-size: 14px;
+  font-size: 11px;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000396}}
   .col-11.clean, .col-s-11.clean, .col-m-11.clean, .col-l-11.clean {
@@ -854,7 +855,7 @@ b {
   border: 1px solid white;
   font-weight: 200;
   padding: 8px 5px;
-  font-size: 14px;
+  font-size: 11px;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000396}}
   .col-12.clean, .col-s-12.clean, .col-m-12.clean, .col-l-12.clean {

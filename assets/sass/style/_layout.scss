@@ -45,6 +45,7 @@ pre {
          padding: 10px !important;
          @include border-radius(4px);
          border: 1px solid lighten($greyc,10);
+         font-size: 14px;
     }
 }
 b {
