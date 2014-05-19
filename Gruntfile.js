@@ -21,6 +21,13 @@ module.exports = function(grunt) {
 				}]
 			}
 		},
+
+		clean: {
+			build: {
+				src: ["css/**.css"]
+			}
+		},
+
 		compass: {
 			dist: {
 				options: {
@@ -64,7 +71,7 @@ module.exports = function(grunt) {
 
 	require('load-grunt-tasks')(grunt);
 
-	grunt.registerTask('build', ['compass:dist']);
+	grunt.registerTask('build', ['clean','compass:dist']);
 	grunt.registerTask('dev', ['compass:dev']);
 
 	grunt.registerTask('default', ['dev','connect','imagemin','watch']);
