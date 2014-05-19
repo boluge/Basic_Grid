@@ -32,6 +32,7 @@ $grid_large: 1200px !default;
 	}
 }
 
+
 /*-----------------------------*\
 	Grid
 \*-----------------------------*/
@@ -51,7 +52,14 @@ $grid_large: 1200px !default;
 	position: relative;
 }
 
+@for $i from 1 through $grid_columns{
+	.col-s-#{$i}, .col-m-#{$i}, .col-l-#{$i}{
+		padding: 0 $grid_gutter*0.5;
+	}
+}
+
 @include grid();
+
 // @include grid('-s');
 // @include grid('-m');
 // @include grid('-l');
