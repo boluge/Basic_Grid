@@ -20,7 +20,7 @@ h3 {
     margin: 20px 0;
     font-size: 24px;
     color: $blanc;
-    border-left: 4px solid darken( $sun,5 );
+    border-left: 4px solid lighten( $sun,5 );
     padding: 0 10px;
     position: relative;
     background:$sun;

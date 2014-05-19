@@ -86,7 +86,7 @@
 	$Grille
 \*------------------------*/
 @for $i from 1 through $grid_columns {
-	.col-#{$i}, .col-s-#{$i}, .col-m-#{$i}, .col-l-#{$i}{
+	.grid-#{$i}, .grid-s-#{$i}, .grid-m-#{$i}, .grid-l-#{$i}{
 		background:$sun;
 		border: 1px solid $blanc;
 		font-weight: 200;

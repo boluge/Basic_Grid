@@ -22,7 +22,7 @@ $grid_large: 1200px !default;
 
 @mixin grid($suffix: ''){
 	@for $i from 1 through $grid_columns{
-		.col#{$suffix}-#{$i}{
+		.grid#{$suffix}-#{$i}{
 			float: left;
 			position: relative;
 			min-height: 1px;
@@ -52,7 +52,7 @@ $grid_large: 1200px !default;
 }
 
 @for $i from 1 through $grid_columns{
-	.col-s-#{$i}, .col-m-#{$i}, .col-l-#{$i}{
+	.grid-s-#{$i}, .grid-m-#{$i}, .grid-l-#{$i}{
 		padding: 0 $grid_gutter*0.5;
 	}
 }
