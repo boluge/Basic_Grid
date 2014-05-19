@@ -90,12 +90,14 @@
 		background:$sun;
 		border: 1px solid $blanc;
 		font-weight: 200;
-		padding: 8px 5px;
+		//padding: 8px 5px;
+		line-height: 40px;
 		font-size: 11px;
 		color: $blanc;
 		&.clean {
 			background: transparent;
 			border: none;
+			line-height: 1.3em;
 		}
 	}
 }

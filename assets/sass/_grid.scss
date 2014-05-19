@@ -8,11 +8,11 @@ $grid_gutter: 20px !default;
 $container_xsmall: 90% !default;
 $container_small: 90% !default;
 $container_medium: 960px !default;
-$container_large: 1040px !default;
+$container_large: 1140px !default;
 
-$grid_small: 640px !default;
-$grid_medium: 960px !default;
-$grid_large: 1040px !default;
+$grid_small: 768px !default;
+$grid_medium: 992px !default;
+$grid_large: 1200px !default;
 
 %clearfix {
 	&:before, &:after { content:""; display:table; }
@@ -26,7 +26,7 @@ $grid_large: 1040px !default;
 			float: left;
 			position: relative;
 			min-height: 1px;
-			padding: 0 $grid_gutter * 0.5;
+			padding: 0 $grid_gutter*0.5;
 			width: $i / $grid_columns * 100%;
 		}
 	}
