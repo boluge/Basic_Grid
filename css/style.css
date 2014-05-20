@@ -635,6 +635,14 @@ b {
   font-weight: 700; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000355}}
+ul li {
+  margin: 0 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000359}}
+.center {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000362}}
 .container {
   z-index: 20; }
 
@@ -667,7 +675,7 @@ b {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.35); }
+    background: rgba(0, 0, 0, 0.1); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000329}}
 .header-grille {
@@ -919,22 +927,32 @@ b {
     border: none;
     line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/icon\/\*\.png}line{font-family:\0000366}}
-.icon-sprite, .icon-Firefox, .icon-Google-Chrome, .icon-Internet-Exploter, .icon-Opera {
-  background: url('/img/icon-sbb38705a60.png') no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/icon\/\*\.png}line{font-family:\0000374}}
+.icon-sprite, .icon-chrome, .icon-firefox, .icon-ie, .icon-opera, .icon-safari {
+  background: url('/img/icon-s1f1582cac6.png') no-repeat; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icon-Firefox {
+.icon-chrome {
   background-position: 0 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icon-Google-Chrome {
-  background-position: 0 -512px; }
+.icon-firefox {
+  background-position: -64px 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icon-Internet-Exploter {
-  background-position: 0 -1024px; }
+.icon-ie {
+  background-position: -128px 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icon-Opera {
-  background-position: 0 -1536px; }
+.icon-opera {
+  background-position: -192px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icon-safari {
+  background-position: -256px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\.scss}line{font-family:\0000313}}
+.icon {
+  width: 64px;
+  height: 64px;
+  display: inline-block; }

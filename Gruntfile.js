@@ -11,6 +11,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+
 		imagemin: {
 			dynamic: {
 				files: [{
@@ -81,6 +82,6 @@ module.exports = function(grunt) {
 	grunt.registerTask('build', ['clean','compass:dist']);
 	grunt.registerTask('dev', ['compass:dev']);
 
-	grunt.registerTask('default', ['dev','connect','imagemin','watch']);
+	grunt.registerTask('default', ['imagemin','dev','connect','watch']);
 
 };
