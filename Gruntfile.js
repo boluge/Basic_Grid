@@ -35,6 +35,9 @@ module.exports = function(grunt) {
 					cssDir: 'css',
 					environment: 'production',
 					outputStyle: 'compressed',
+					imagesPath: 'img',
+					httpImagesPath: 'img',
+					imagesDir: 'img'
 				}
 			},
 			dev: {
@@ -44,6 +47,10 @@ module.exports = function(grunt) {
 					environment: 'development',
 					debugInfo: true,
 					outputStyle: 'nested',
+					imagesPath: 'img',
+					httpImagesPath: 'img',
+					imagesDir: 'img'
+
 				}
 			}
 		},
