@@ -44,6 +44,13 @@
 		padding: 60px 0;
 	}
 }
+.header-kitchen {
+	background: url( '../img/cuisine.jpg' ) no-repeat center center fixed;
+	@include background-size(cover);
+	h2 {
+		padding: 60px 0;
+	}
+}
 /*------------------------*\
 	$Sections
 \*------------------------*/
@@ -93,7 +100,7 @@
 	@include box-sizing(border-box);
 	border-collapse: collapse;
 	overflow: hidden;
-	font-size: 13px;
+	font-size: 14px;
 	td , th {
 		color: #333;
 		padding: 5px;
@@ -122,6 +129,26 @@
 			display: block;
 		}
 	}
+	.h-xs {
+		background: #e74c3c;
+		&:before {
+			content: "hidden";
+			color: #fff;
+			font-weight: normal;
+			text-align: center;
+			display: block;
+		}
+	}
+	.h-s, .h-m, .h-l {
+		background: #2ecc71;
+		&:before {
+			content: "visible";
+			color: #fff;
+			font-weight: normal;
+			text-align: center;
+			display: block;
+		}
+	}
 }
 /*-----------------------------*\
 	Responsive
@@ -139,6 +166,26 @@
 			background: #e74c3c;
 			&:before {
 				content: "hidden";
+			}
+		}
+		.h-s {
+			background: #e74c3c;
+			&:before {
+				content: "hidden";
+				color: #fff;
+				font-weight: normal;
+				text-align: center;
+				display: block;
+			}
+		}
+		.h-xs, .h-m, .h-l {
+			background: #2ecc71;
+			&:before {
+				content: "visible";
+				color: #fff;
+				font-weight: normal;
+				text-align: center;
+				display: block;
 			}
 		}
 	}
@@ -159,6 +206,26 @@
 				content: "hidden";
 			}
 		}
+		.h-m {
+		background: #e74c3c;
+			&:before {
+				content: "hidden";
+				color: #fff;
+				font-weight: normal;
+				text-align: center;
+				display: block;
+			}
+		}
+		.h-xs, .h-s, .h-l {
+			background: #2ecc71;
+			&:before {
+				content: "visible";
+				color: #fff;
+				font-weight: normal;
+				text-align: center;
+				display: block;
+			}
+		}
 	}
 }
 
@@ -175,6 +242,26 @@
 			background: #e74c3c;
 			&:before {
 				content: "hidden";
+			}
+		}
+		.h-l {
+			background: #e74c3c;
+			&:before {
+				content: "hidden";
+				color: #fff;
+				font-weight: normal;
+				text-align: center;
+				display: block;
+			}
+		}
+		.h-xs, .h-s, .h-m {
+			background: #2ecc71;
+			&:before {
+				content: "visible";
+				color: #fff;
+				font-weight: normal;
+				text-align: center;
+				display: block;
 			}
 		}
 	}
