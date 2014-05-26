@@ -1,4 +1,4 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,127 +19,165 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
 html {
   line-height: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
 ol, ul {
   list-style: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
 q, blockquote {
   quotes: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
 a img {
   border: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
 /*------------------------*\
     $Colors
 \*------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/icon\/\*\.png}line{font-family:\0000390}}
+.icon-sprite, .icon-chrome, .icon-false, .icon-firefox, .icon-ie, .icon-opera, .icon-safari, .icon-true {
+  background: url('/img/icon-s46f1864d12.png') no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icon-chrome {
+  background-position: 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icon-false {
+  background-position: -64px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icon-firefox {
+  background-position: -128px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icon-ie {
+  background-position: -192px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icon-opera {
+  background-position: -256px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icon-safari {
+  background-position: -320px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/stephanedeluce\/\.rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icon-true {
+  background-position: -384px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_variables\.scss}line{font-family:\0000313}}
+.icon {
+  width: 64px;
+  height: 64px;
+  display: inline-block; }
+
 /*-----------------------------*\
 	Variables
 \*-----------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000318}}
 .row:before, .row:after {
   content: "";
   display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000319}}
 .row:after {
   clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000320}}
 .row {
   zoom: 1; }
 
 /*-----------------------------*\
 	Grid
 \*-----------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000338}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000342}}
 .row {
   margin: 0 -10px;
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000348}}
 .container {
   width: 90%;
   margin: 0 auto;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
 .grid-s-1, .grid-m-1, .grid-l-1 {
   padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
 .grid-s-2, .grid-m-2, .grid-l-2 {
   padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
 .grid-s-3, .grid-m-3, .grid-l-3 {
   padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
 .grid-s-4, .grid-m-4, .grid-l-4 {
   padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
 .grid-s-5, .grid-m-5, .grid-l-5 {
   padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
 .grid-s-6, .grid-m-6, .grid-l-6 {
   padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
 .grid-s-7, .grid-m-7, .grid-l-7 {
   padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
 .grid-s-8, .grid-m-8, .grid-l-8 {
   padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
 .grid-s-9, .grid-m-9, .grid-l-9 {
   padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
 .grid-s-10, .grid-m-10, .grid-l-10 {
   padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
 .grid-s-11, .grid-m-11, .grid-l-11 {
   padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000355}}
 .grid-s-12, .grid-m-12, .grid-l-12 {
   padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
 .grid-1 {
   float: left;
   position: relative;
@@ -147,7 +185,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0 10px;
   width: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
 .grid-2 {
   float: left;
   position: relative;
@@ -155,7 +193,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0 10px;
   width: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
 .grid-3 {
   float: left;
   position: relative;
@@ -163,7 +201,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0 10px;
   width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
 .grid-4 {
   float: left;
   position: relative;
@@ -171,7 +209,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0 10px;
   width: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
 .grid-5 {
   float: left;
   position: relative;
@@ -179,7 +217,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0 10px;
   width: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
 .grid-6 {
   float: left;
   position: relative;
@@ -187,7 +225,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0 10px;
   width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
 .grid-7 {
   float: left;
   position: relative;
@@ -195,7 +233,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0 10px;
   width: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
 .grid-8 {
   float: left;
   position: relative;
@@ -203,7 +241,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0 10px;
   width: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
 .grid-9 {
   float: left;
   position: relative;
@@ -211,7 +249,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0 10px;
   width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
 .grid-10 {
   float: left;
   position: relative;
@@ -219,7 +257,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0 10px;
   width: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
 .grid-11 {
   float: left;
   position: relative;
@@ -227,7 +265,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0 10px;
   width: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
 .grid-12 {
   float: left;
   position: relative;
@@ -235,11 +273,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0 10px;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000367}}
 .hidden-xs, .visible-s, .visible-m, .visible-l {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000370}}
 .visible-xs, .hidden-s, .hidden-m, .hidden-l {
   display: block; }
 
@@ -247,7 +285,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	Responsive
 \*-----------------------------*/
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-s-1 {
     float: left;
     position: relative;
@@ -255,7 +293,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-s-2 {
     float: left;
     position: relative;
@@ -263,7 +301,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-s-3 {
     float: left;
     position: relative;
@@ -271,7 +309,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-s-4 {
     float: left;
     position: relative;
@@ -279,7 +317,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-s-5 {
     float: left;
     position: relative;
@@ -287,7 +325,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-s-6 {
     float: left;
     position: relative;
@@ -295,7 +333,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-s-7 {
     float: left;
     position: relative;
@@ -303,7 +341,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-s-8 {
     float: left;
     position: relative;
@@ -311,7 +349,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-s-9 {
     float: left;
     position: relative;
@@ -319,7 +357,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-s-10 {
     float: left;
     position: relative;
@@ -327,7 +365,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-s-11 {
     float: left;
     position: relative;
@@ -335,7 +373,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-s-12 {
     float: left;
     position: relative;
@@ -343,20 +381,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000380}}
   .container {
     width: 90%;
     margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000384}}
   .hidden-s, .visible-xs, .visible-m, .visible-l {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000387}}
   .visible-s, .hidden-xs, .hidden-m, .hidden-l {
     display: block; } }
 @media only screen and (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-m-1 {
     float: left;
     position: relative;
@@ -364,7 +402,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-m-2 {
     float: left;
     position: relative;
@@ -372,7 +410,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-m-3 {
     float: left;
     position: relative;
@@ -380,7 +418,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-m-4 {
     float: left;
     position: relative;
@@ -388,7 +426,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-m-5 {
     float: left;
     position: relative;
@@ -396,7 +434,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-m-6 {
     float: left;
     position: relative;
@@ -404,7 +442,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-m-7 {
     float: left;
     position: relative;
@@ -412,7 +450,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-m-8 {
     float: left;
     position: relative;
@@ -420,7 +458,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-m-9 {
     float: left;
     position: relative;
@@ -428,7 +466,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-m-10 {
     float: left;
     position: relative;
@@ -436,7 +474,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-m-11 {
     float: left;
     position: relative;
@@ -444,7 +482,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-m-12 {
     float: left;
     position: relative;
@@ -452,20 +490,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000395}}
   .container {
     width: 960px;
     margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000399}}
   .hidden-m, .visible-xs, .visible-s, .visible-l {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\00003102}}
   .visible-m, .hidden-xs, .hidden-s, .hidden-l {
     display: block; } }
 @media only screen and (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-l-1 {
     float: left;
     position: relative;
@@ -473,7 +511,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-l-2 {
     float: left;
     position: relative;
@@ -481,7 +519,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-l-3 {
     float: left;
     position: relative;
@@ -489,7 +527,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-l-4 {
     float: left;
     position: relative;
@@ -497,7 +535,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-l-5 {
     float: left;
     position: relative;
@@ -505,7 +543,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-l-6 {
     float: left;
     position: relative;
@@ -513,7 +551,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-l-7 {
     float: left;
     position: relative;
@@ -521,7 +559,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-l-8 {
     float: left;
     position: relative;
@@ -529,7 +567,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-l-9 {
     float: left;
     position: relative;
@@ -537,7 +575,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-l-10 {
     float: left;
     position: relative;
@@ -545,7 +583,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-l-11 {
     float: left;
     position: relative;
@@ -553,7 +591,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\0000325}}
   .grid-l-12 {
     float: left;
     position: relative;
@@ -561,35 +599,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 10px;
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\00003110}}
   .container {
     width: 1140px;
     margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\00003114}}
   .hidden-l, .visible-xs, .visible-s, .visible-m {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/_grid\.scss}line{font-family:\00003117}}
   .visible-l, .hidden-xs, .hidden-s, .hidden-m {
     display: block; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\000031}}
 body {
-  font-family: sans-serif;
   font-family: 'Open Sans', sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\000036}}
 header h1 {
   font-size: 80px;
   font-weight: 400;
   line-height: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000311}}
 header h2 {
   font-size: 40px;
   font-weight: 200;
   line-height: 60px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000317}}
 h3 {
   line-height: 1.5em;
   margin: 20px 0;
@@ -601,7 +638,7 @@ h3 {
   background: #f1c40f;
   z-index: 10; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000328}}
 p {
   margin-bottom: 1em;
   line-height: 1.3em;
@@ -609,17 +646,17 @@ p {
   font-weight: 500;
   font-size: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000335}}
 a {
   font-weight: 600;
   text-decoration: none;
   color: #667273;
   border-bottom: 1px solid #f1c40f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000341}}
 pre {
   margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000343}}
   pre code {
     padding: 10px !important;
     -webkit-border-radius: 4px;
@@ -630,44 +667,44 @@ pre {
     border: 1px solid #d9dcde;
     font-size: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000350}}
 b {
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000354}}
 ul li {
   margin: 0 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000358}}
 .center {
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_layout\.scss}line{font-family:\0000361}}
 .container {
   z-index: 20; }
 
 /*------------------------*\
 	$Headers
 \*------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\000034}}
 .header {
   z-index: 1;
   padding: 160px 0 180px 0;
   position: relative;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\000035}}
   .header h1, .header h2 {
     text-align: center;
     color: white;
     position: relative;
     z-index: 10; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000311}}
   .header h2 {
     text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000314}}
   .header .btn {
     margin: 70px auto 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000318}}
   .header:before {
     content: '';
     position: absolute;
@@ -677,7 +714,7 @@ ul li {
     bottom: 0;
     background: rgba(0, 0, 0, 0.1); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000329}}
 .header-grille {
   background: url("../img/grid.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -685,38 +722,38 @@ ul li {
   -o-background-size: cover;
   background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000333}}
 .header-config {
   background: url("../img/parameters.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000336}}
   .header-config h2 {
     padding: 60px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000340}}
 .header-tools {
   background: url("../img/tools.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000343}}
   .header-tools h2 {
     padding: 60px 0; }
 
 /*------------------------*\
 	$Sections
 \*------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000350}}
 .section {
   padding: 40px 0;
   display: block;
   z-index: 5;
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000357}}
   .section:before, .section:after {
     content: '';
     background: white;
@@ -736,7 +773,7 @@ ul li {
     -o-transform: skewY(-2deg);
     transform: skewY(-2deg);
     z-index: -1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000370}}
   .section:after {
     -webkit-transform-origin: 100% 0;
     -moz-transform-origin: 100% 0;
@@ -747,7 +784,7 @@ ul li {
 /*------------------------*\
 	$Bouton
 \*------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000377}}
 .btn {
   display: inline-block;
   padding: 0 40px;
@@ -757,9 +794,99 @@ ul li {
   line-height: 45px; }
 
 /*------------------------*\
+	$Table
+\*------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000388}}
+.table {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: auto;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  overflow: hidden;
+  font-size: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+  .table td, .table th {
+    color: #333;
+    padding: 5px;
+    border: 1px solid #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003102}}
+  .table th {
+    font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003105}}
+  .table .v-xs {
+    background: #2ecc71; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003107}}
+    .table .v-xs:before {
+      content: "visible";
+      color: #fff;
+      font-weight: normal;
+      text-align: center;
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003115}}
+  .table .v-s, .table .v-m, .table .v-l {
+    background: #e74c3c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003117}}
+    .table .v-s:before, .table .v-m:before, .table .v-l:before {
+      content: "hidden";
+      color: #fff;
+      font-weight: normal;
+      text-align: center;
+      display: block; }
+
+/*-----------------------------*\
+	Responsive
+\*-----------------------------*/
+@media only screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003132}}
+  .table .v-s {
+    background: #2ecc71; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003134}}
+    .table .v-s:before {
+      content: "visible"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003138}}
+  .table .v-xs, .table .v-m, .table .v-l {
+    background: #e74c3c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003140}}
+    .table .v-xs:before, .table .v-m:before, .table .v-l:before {
+      content: "hidden"; } }
+@media only screen and (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003150}}
+  .table .v-m {
+    background: #2ecc71; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003152}}
+    .table .v-m:before {
+      content: "visible"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003156}}
+  .table .v-xs, .table .v-s, .table .v-l {
+    background: #e74c3c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003158}}
+    .table .v-xs:before, .table .v-s:before, .table .v-l:before {
+      content: "hidden"; } }
+@media only screen and (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003168}}
+  .table .v-l {
+    background: #2ecc71; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003170}}
+    .table .v-l:before {
+      content: "visible"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003174}}
+  .table .v-xs, .table .v-s, .table .v-m {
+    background: #e74c3c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003176}}
+    .table .v-xs:before, .table .v-s:before, .table .v-m:before {
+      content: "hidden"; } }
+/*------------------------*\
 	$Grille
 \*------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003186}}
 .grid-1, .grid-s-1, .grid-m-1, .grid-l-1 {
   background: #f1c40f;
   border: 1px solid white;
@@ -767,13 +894,13 @@ ul li {
   line-height: 40px;
   font-size: 11px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003194}}
   .grid-1.clean, .grid-s-1.clean, .grid-m-1.clean, .grid-l-1.clean {
     background: transparent;
     border: none;
     line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003186}}
 .grid-2, .grid-s-2, .grid-m-2, .grid-l-2 {
   background: #f1c40f;
   border: 1px solid white;
@@ -781,13 +908,13 @@ ul li {
   line-height: 40px;
   font-size: 11px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003194}}
   .grid-2.clean, .grid-s-2.clean, .grid-m-2.clean, .grid-l-2.clean {
     background: transparent;
     border: none;
     line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003186}}
 .grid-3, .grid-s-3, .grid-m-3, .grid-l-3 {
   background: #f1c40f;
   border: 1px solid white;
@@ -795,13 +922,13 @@ ul li {
   line-height: 40px;
   font-size: 11px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003194}}
   .grid-3.clean, .grid-s-3.clean, .grid-m-3.clean, .grid-l-3.clean {
     background: transparent;
     border: none;
     line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003186}}
 .grid-4, .grid-s-4, .grid-m-4, .grid-l-4 {
   background: #f1c40f;
   border: 1px solid white;
@@ -809,13 +936,13 @@ ul li {
   line-height: 40px;
   font-size: 11px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003194}}
   .grid-4.clean, .grid-s-4.clean, .grid-m-4.clean, .grid-l-4.clean {
     background: transparent;
     border: none;
     line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003186}}
 .grid-5, .grid-s-5, .grid-m-5, .grid-l-5 {
   background: #f1c40f;
   border: 1px solid white;
@@ -823,13 +950,13 @@ ul li {
   line-height: 40px;
   font-size: 11px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003194}}
   .grid-5.clean, .grid-s-5.clean, .grid-m-5.clean, .grid-l-5.clean {
     background: transparent;
     border: none;
     line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003186}}
 .grid-6, .grid-s-6, .grid-m-6, .grid-l-6 {
   background: #f1c40f;
   border: 1px solid white;
@@ -837,13 +964,13 @@ ul li {
   line-height: 40px;
   font-size: 11px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003194}}
   .grid-6.clean, .grid-s-6.clean, .grid-m-6.clean, .grid-l-6.clean {
     background: transparent;
     border: none;
     line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003186}}
 .grid-7, .grid-s-7, .grid-m-7, .grid-l-7 {
   background: #f1c40f;
   border: 1px solid white;
@@ -851,13 +978,13 @@ ul li {
   line-height: 40px;
   font-size: 11px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003194}}
   .grid-7.clean, .grid-s-7.clean, .grid-m-7.clean, .grid-l-7.clean {
     background: transparent;
     border: none;
     line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003186}}
 .grid-8, .grid-s-8, .grid-m-8, .grid-l-8 {
   background: #f1c40f;
   border: 1px solid white;
@@ -865,13 +992,13 @@ ul li {
   line-height: 40px;
   font-size: 11px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003194}}
   .grid-8.clean, .grid-s-8.clean, .grid-m-8.clean, .grid-l-8.clean {
     background: transparent;
     border: none;
     line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003186}}
 .grid-9, .grid-s-9, .grid-m-9, .grid-l-9 {
   background: #f1c40f;
   border: 1px solid white;
@@ -879,13 +1006,13 @@ ul li {
   line-height: 40px;
   font-size: 11px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003194}}
   .grid-9.clean, .grid-s-9.clean, .grid-m-9.clean, .grid-l-9.clean {
     background: transparent;
     border: none;
     line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003186}}
 .grid-10, .grid-s-10, .grid-m-10, .grid-l-10 {
   background: #f1c40f;
   border: 1px solid white;
@@ -893,13 +1020,13 @@ ul li {
   line-height: 40px;
   font-size: 11px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003194}}
   .grid-10.clean, .grid-s-10.clean, .grid-m-10.clean, .grid-l-10.clean {
     background: transparent;
     border: none;
     line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003186}}
 .grid-11, .grid-s-11, .grid-m-11, .grid-l-11 {
   background: #f1c40f;
   border: 1px solid white;
@@ -907,13 +1034,13 @@ ul li {
   line-height: 40px;
   font-size: 11px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003194}}
   .grid-11.clean, .grid-s-11.clean, .grid-m-11.clean, .grid-l-11.clean {
     background: transparent;
     border: none;
     line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003186}}
 .grid-12, .grid-s-12, .grid-m-12, .grid-l-12 {
   background: #f1c40f;
   border: 1px solid white;
@@ -921,38 +1048,8 @@ ul li {
   line-height: 40px;
   font-size: 11px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/git\/Basic_Grid\/assets\/sass\/style\/_modules\.scss}line{font-family:\00003194}}
   .grid-12.clean, .grid-s-12.clean, .grid-m-12.clean, .grid-l-12.clean {
     background: transparent;
     border: none;
     line-height: 1.3em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/icon\/\*\.png}line{font-family:\0000374}}
-.icon-sprite, .icon-chrome, .icon-firefox, .icon-ie, .icon-opera, .icon-safari {
-  background: url('/img/icon-s1f1582cac6.png') no-repeat; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icon-chrome {
-  background-position: 0 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icon-firefox {
-  background-position: -64px 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icon-ie {
-  background-position: -128px 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icon-opera {
-  background-position: -192px 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.1\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icon-safari {
-  background-position: -256px 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Git\/Basic_Grid\/assets\/sass\/style\.scss}line{font-family:\0000313}}
-.icon {
-  width: 64px;
-  height: 64px;
-  display: inline-block; }

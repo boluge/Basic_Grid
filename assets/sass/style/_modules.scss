@@ -83,6 +83,103 @@
 	line-height: 45px;
 }
 /*------------------------*\
+	$Table
+\*------------------------*/
+.table {
+	width: 100%;
+	border: 1px solid #ccc;
+	margin: auto;
+	@include border-radius( 6px );
+	@include box-sizing(border-box);
+	border-collapse: collapse;
+	overflow: hidden;
+	font-size: 13px;
+	td , th {
+		color: #333;
+		padding: 5px;
+		border: 1px solid #ccc;
+	}
+	th {
+		font-weight: bold;
+	}
+	.v-xs {
+		background: #2ecc71;
+		&:before {
+			content: "visible";
+			color: #fff;
+			font-weight: normal;
+			text-align: center;
+			display: block;
+		}
+	}
+	.v-s, .v-m, .v-l {
+		background: #e74c3c;
+		&:before {
+			content: "hidden";
+			color: #fff;
+			font-weight: normal;
+			text-align: center;
+			display: block;
+		}
+	}
+}
+/*-----------------------------*\
+	Responsive
+\*-----------------------------*/
+// Small
+@media only screen and ( min-width: $grid_small ){
+	.table {
+		.v-s {
+			background: #2ecc71;
+			&:before {
+				content: "visible";
+			}
+		}
+		.v-xs, .v-m, .v-l {
+			background: #e74c3c;
+			&:before {
+				content: "hidden";
+			}
+		}
+	}
+}
+
+// Medium
+@media only screen and ( min-width: $grid_medium ){
+	.table {
+		.v-m {
+			background: #2ecc71;
+			&:before {
+				content: "visible";
+			}
+		}
+		.v-xs, .v-s, .v-l {
+			background: #e74c3c;
+			&:before {
+				content: "hidden";
+			}
+		}
+	}
+}
+
+// Large
+@media only screen and ( min-width: $grid_large ){
+	.table {
+		.v-l {
+			background: #2ecc71;
+			&:before {
+				content: "visible";
+			}
+		}
+		.v-xs, .v-s, .v-m {
+			background: #e74c3c;
+			&:before {
+				content: "hidden";
+			}
+		}
+	}
+}
+/*------------------------*\
 	$Grille
 \*------------------------*/
 @for $i from 1 through $grid_columns {

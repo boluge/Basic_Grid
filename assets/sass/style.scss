@@ -6,12 +6,3 @@
 @import "grid";
 @import "style/layout";
 @import "style/modules";
-
-$icon-layout: horizontal;
-@import "icon/*.png";
-@include  all-icon-sprites;
-.icon {
-    width: 64px;
-    height: 64px;
-    display: inline-block;
-}
