@@ -1,0 +1,61 @@
+@import "compass";
+/*-----------------------------*\
+    Variables
+\*-----------------------------*/
+$grid_columns: 12!default;
+$grid_gutter: 20px !default;
+
+$container_medium: 960px !default;
+
+$grid_medium: 992px !default;
+
+%clearfix {
+    &:before, &:after { content:""; display:table; }
+    &:after { clear:both; }
+    & { zoom:1; }
+}
+
+@mixin grid($suffix: ''){
+    @for $i from 1 through $grid_columns{
+        .grid#{$suffix}-#{$i}{
+            float: left;
+            position: relative;
+            min-height: 1px;
+            padding: 0 $grid_gutter*0.5;
+            width: $i / $grid_columns * 100%;
+        }
+    }
+}
+
+/*-----------------------------*\
+    Grid
+\*-----------------------------*/
+.row {
+    margin: 0 $grid_gutter * -0.5;
+    @extend %clearfix;
+    overflow: hidden;
+}
+
+.container {
+    width: $container_medium;
+    margin: 0 auto;
+    position: relative;
+}
+
+@for $i from 1 through $grid_columns{
+    .grid-s-#{$i}, .grid-m-#{$i}, .grid-l-#{$i}{
+        padding: 0 $grid_gutter*0.5;
+    }
+}
+
+@include grid();
+@include grid('-s');
+@include grid('-m');
+@include grid('-l');
+
+.hidden-m, .visible-xs, .visible-s, .visible-l {
+    display: none;
+}
+.visible-m, .hidden-xs, .hidden-s, .hidden-l {
+    display: block;
+}
